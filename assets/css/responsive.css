@@ -1,0 +1,334 @@
+@media (max-width:1024px) {
+ img.people.py-5 {
+    margin-left: 44em;
+}
+.map input.row {
+    margin-left: 0px;
+  }
+.map .img-fluid {
+    height: 35em;
+}
+    
+}
+@media (max-width:991px){
+
+html{
+    font-size: 55%;
+}
+    
+.header{
+    padding: 2rem;
+}
+img.people.py-5 {
+    margin-left: 37em;
+}
+    
+}
+@media (max-width:768px){
+.show-slide{
+    display: none;
+}
+#glass {
+    display: none;
+}
+#menu-btn{
+    display: initial;
+}
+.header .navbar a:hover {
+    color: white;
+    border-bottom: none;
+    background-color: #18cfab;
+    padding-bottom: 0;
+    margin-bottom:  0;
+  }
+        
+.header .navbar{
+    position: absolute;
+    top:100%; right: 0rem;
+    border-radius: .5rem;
+    width: 20em;
+    background: rgba(0, 0, 0, 0.3);;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    transition: none;
+}
+        
+.header .navbar.active{
+    transform: scale(1);
+    opacity: 1;
+    transition: .2s ease-out;
+}
+        
+.header .navbar a {
+    font-size: 2rem;
+    display: block;
+    margin: 2rem;
+}
+.tag .tag-color{
+    display: none;
+}
+.about h1 {
+    display: flex;
+    justify-content: center;
+}
+.nav-about ul {
+    display: flex;
+    justify-content: center;
+}
+.about-skills.row {
+    display: flex;
+    justify-content: center;
+}
+.information.py-5 .info-pc {
+    display: none;
+}
+.information.py-5 p {
+    color: #717171;
+}
+#accordion {
+    display: initial;
+}
+#accordion .content-info p {
+    font-size: 2em;
+}
+.news-post.col-xs-12.col-sm-6.col-lg-3 {
+    padding-bottom: 10px;
+}
+.funfact p {
+    font-size: 2em;
+}
+.funfact h2 {
+    font-size: 2.5rem;
+}
+.tab.row {
+    font-size: 1.5em;
+}
+.team-card.col-xs-12.col-sm-6.col-lg-3 {
+    padding-top: 20px;
+    padding: 4em;
+}
+.purchase2 .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+.btn-purchase2 {
+    width: 160px;
+    font-size: 12px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.map .img-fluid {
+    max-width: 100%;
+    height: 320px;
+}
+input#form1 {
+    width: 220px;
+    height: 40px;
+}
+button.btn-form1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.site-footer img.img-flicke {
+    width: 15em;
+    height: 15em;
+}
+        
+}
+        
+@media (max-width:450px){
+        
+html{
+    font-size: 25%;
+}
+.header .navbar {
+    width: 20em;
+}
+.header a img {
+    width: 80%;
+    height: auto;
+}
+.content h3 {
+    font-size: 9em;
+}
+.content h1 {
+    font-size: 9em;
+}
+.content p {
+    font-size: 6em;
+}
+.outsite-btn-banner {
+    padding: 8em;
+}
+.title-banner {
+    padding-top: 120px;
+}
+.tag .tag-color{
+    display: none;
+}
+.about h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+.progress p {
+    font-size: 4em;
+}
+.nav-about ul {
+    justify-content: center;
+}
+.portfolio h1 {
+    font-size: 5rem;
+}
+.portfolio a.nav-link {
+    font-size: 1.5em;
+}
+.portfolio a.nav-link.active {
+    font-size: 1.5em;
+}
+.portfolio img.img-fluid {
+    padding-top: 15px;
+}
+.portfolio ul.nav.justify-content-center {
+    font-size: 2.4em;
+}
+.portfolio .add.px-0.col-xs-12.col-sm-6.col-md-3 {
+    height: 213.33px;
+}
+.portfolio .add.px-0.col-xs-12.col-sm-6.col-md-3 a p {
+    margin-top: 20px;
+    font-size: 3em;
+}
+.portfolio .load {
+    font-size: 2em;
+}
+.information.py-5 h1 {
+    font-size: 5em;
+}
+#accordion .content-info p {
+    font-size: 3em;
+}
+section.purchase.py-5 {
+    height: 60em;
+}
+.purchase h1 {
+    font-size: 5.1em;
+}
+.purchase p.text-center {
+    font-size: 3.2em;
+}
+button.btn-now {
+    font-size: 3em;
+    padding: 10px;
+}
+.news.py-5 h1 {
+    font-size: 5em;
+}
+.news-post.col-xs-12.col-sm-6.col-md-3 {
+    padding-bottom: 10px;
+}
+.funfact .tag-color {
+    display: none;
+}
+.funfact p {
+    font-size: 5em;
+}
+.funfact h2 {
+    font-size: 5.5rem;
+}
+.pricing h1 {
+    font-size: 5em;
+}
+.personal.col-xs-12.col-sm-6.col-md-3 {
+    padding: 5em 15em;
+}
+.personal-offer.col-xs-12.col-sm-6.col-md-3 {
+    padding: 5em 15em;
+}
+.tab.row {
+    font-size: 3em;
+}
+.feedback h1{
+    font-size: 5em;
+}
+.feedback p {
+    font-size: 3em;
+}
+.team h1.pb-5 {
+    font-size: 5em;
+}
+.team-card.col-xs-12.col-sm-6.col-lg-3 {
+    padding: 8em;
+}
+.team h5.card-title {
+    font-size: 5em;
+}
+.team p {
+    font-size: 3em;
+}
+.purchase2 h1.text-center {
+    font-size: 5em;
+}
+.purchase2 .col-lg-5 {
+    font-size: 2.3em;
+}
+.map input#name, input#mail {
+    font-size: 3em;
+}
+textarea#message\ row {
+    font-size: 3em;
+}
+.map h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.map .img-style {
+    margin-left: 100px;
+}
+.map input.row.text-center {
+    font-size: 2em;
+}
+img.people.py-5 {
+    margin-left: 30em;
+}
+.site-footer p.pb-5, .site-footer p {
+    font-size: 3em;
+}
+.site-footer h5.pb-4, .site-footer h5 {
+    font-size: 5em;
+    padding-top: 1em;
+}
+.site-footer a.btn.btn-info,.site-footer a.btn.btn-dark {
+    font-size: 3em;
+}
+.site-footer input#form1 {
+    font-size: 3em;
+    padding: 1em;
+}
+.site-footer a.text-name {
+    font-size: 3em;
+}
+.site-footer button.btn-form1 {
+    height: 40px;
+    width: 45px;
+    font-size: 4em;
+}
+.site-footer .feed-mobi {
+    display: initial;
+}
+.site-footer #feed-pc {
+    display: none;
+}
+.site-footer img.img-flicke {
+    width: 25em;
+    height: 25em;
+}
+.textwidget.text-center {
+    font-size: 3em;
+}
+}
