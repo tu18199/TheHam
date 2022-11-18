@@ -1,12 +1,72 @@
-@media (max-width:1024px) {
+@media (max-width:1440px) {
+.about .img-style {
+    padding: 35px 0 0 80px;
+}
+}
+@media (max-width:1024px) and (min-width:769px) {
+html {
+    font-size: 60%;
+}
+.header .navbar a {
+    font-size: 12px;   
+}
+.header img {
+    padding-top: 40px;
+}
+.show-slide {
+    padding-right: 50px;
+}
+/* services */
+a.name-services {
+    font-size: 20px;
+}
+.ser-card p {
+    font-size: 15px;
+}
+/* about */
+.about img {
+    padding-top: 80px;
+}
+.about .img-style {
+    padding: 10px 0 20px 75px;
+}
+.about-skills.row {
+    padding: 0 10px 100px 0;
+}
+/* information */
+li.nav-item-info {
+    padding: 20px 43px;
+}
+.information p {
+    font-size: 11px;
+}
  img.people.py-5 {
     margin-left: 44em;
 }
+/* map */
+.map input#name,
+.map input#mail,
+.map textarea,
+.map button {
+    width: 100%;
+}
+.contact-fa {
+    padding: 60px 0 20px 0;
+}
 .map input.row {
     margin-left: 0px;
-  }
-.map .img-fluid {
-    height: 35em;
+}
+/* footer-site */
+.site-footer p {
+    font-size: 12px;
+}
+input#form1 {
+    padding: 10px 0px 10px 10px;
+    font-size: 12px;
+}
+button.btn-form1 {
+    height: 38px;
+    width: 38px;
 }
     
 }
@@ -31,8 +91,12 @@ img.people.py-5 {
 #glass {
     display: none;
 }
+/* header */
 #menu-btn{
-    display: initial;
+    display: block;
+}
+header .logo {
+    padding-top: 0;
 }
 .header .navbar a:hover {
     color: white;
@@ -46,8 +110,8 @@ img.people.py-5 {
     position: absolute;
     top:100%; right: 0rem;
     border-radius: .5rem;
-    width: 20em;
-    background: rgba(0, 0, 0, 0.3);;
+    width: 165px;
+    background: rgba(0, 0, 0, 0.3);
     transform: scale(0);
     opacity: 0;
     transform-origin: top right;
@@ -61,16 +125,22 @@ img.people.py-5 {
 }
         
 .header .navbar a {
-    font-size: 2rem;
+    font-size: 18px;
     display: block;
-    margin: 2rem;
+    margin: 16px;
+    padding: 0;
 }
+/* tag */
 .tag .tag-color{
     display: none;
 }
+/* about  */
 .about h1 {
     display: flex;
     justify-content: center;
+}
+.about img.img-style {
+    padding: 37px 0 80px 250px;
 }
 .nav-about ul {
     display: flex;
@@ -80,34 +150,52 @@ img.people.py-5 {
     display: flex;
     justify-content: center;
 }
-.information.py-5 .info-pc {
+/* .portfolio */
+.img-item a {
+    top: 10%;
+    left: 28%;
+    font-size: 7px;
+}
+/* .information */
+.information .info-pc {
     display: none;
 }
-.information.py-5 p {
+.information img.text-center {
+    padding: 40px 0 60px 0;
+}
+.information p {
     color: #717171;
 }
 #accordion {
     display: initial;
 }
 #accordion .content-info p {
-    font-size: 2em;
+    font-size: 15px;
 }
+/* news  */
 .news-post.col-xs-12.col-sm-6.col-lg-3 {
     padding-bottom: 10px;
 }
+/* .funfact */
 .funfact p {
     font-size: 2em;
 }
 .funfact h2 {
     font-size: 2.5rem;
 }
-.tab.row {
-    font-size: 1.5em;
+/* .pricing */
+.pricing h4 {
+    font-size: 19px;
 }
+.pricing .price-table {
+    border: none;
+}
+/* .team */
 .team-card.col-xs-12.col-sm-6.col-lg-3 {
     padding-top: 20px;
     padding: 4em;
 }
+/* .purchase2 */
 .purchase2 .col-lg-5 {
     display: flex;
     justify-content: center;
@@ -119,9 +207,18 @@ img.people.py-5 {
     padding: 15px;
     margin-left: 20px;
 }
-.map .img-fluid {
-    max-width: 100%;
-    height: 320px;
+/* .map */
+.map input#name {
+    width: 100%;
+}
+.map input#mail {
+    width: 100%;
+}
+.map textarea {
+    width: 100%;
+}
+button.row {
+    width: 100%;
 }
 input#form1 {
     width: 220px;
@@ -140,17 +237,20 @@ button.btn-form1 {
         
 }
         
-@media (max-width:450px){
+@media (max-width:450px) and (min-width:320px){
         
 html{
     font-size: 25%;
 }
 .header .navbar {
-    width: 20em;
+    width: 145px;
 }
 .header a img {
     width: 80%;
     height: auto;
+}
+#menu-btn {
+    font-size: 25px;
 }
 .content h3 {
     font-size: 9em;
@@ -174,14 +274,33 @@ html{
     font-size: 5rem;
     text-align: center;
 }
+.about img.img-style {
+    padding: 30px 0 50px 45px;
+}
+.nav-about ul li a {
+    font-size: 11px;
+}
+.about-skills.row {
+    margin: 0 10px;
+}
 .progress p {
     font-size: 4em;
 }
 .nav-about ul {
     justify-content: center;
 }
+
+/* .portfolio */
 .portfolio h1 {
     font-size: 5rem;
+}
+.img-item a {
+    top: 25%;
+    left: 28%;
+    font-size: 5px;
+}
+.add.px-0.col-xs-12.col-sm-6.col-md-3:hover {
+    border: none;
 }
 .portfolio a.nav-link {
     font-size: 1.5em;
@@ -189,28 +308,29 @@ html{
 .portfolio a.nav-link.active {
     font-size: 1.5em;
 }
-.portfolio img.img-fluid {
-    padding-top: 15px;
-}
 .portfolio ul.nav.justify-content-center {
     font-size: 2.4em;
-}
-.portfolio .add.px-0.col-xs-12.col-sm-6.col-md-3 {
-    height: 213.33px;
 }
 .portfolio .add.px-0.col-xs-12.col-sm-6.col-md-3 a p {
     margin-top: 20px;
     font-size: 3em;
 }
+.portfolio img.img-fluid {
+    padding: 10px;
+}
 .portfolio .load {
     font-size: 2em;
 }
+
+/* .information */
 .information.py-5 h1 {
     font-size: 5em;
 }
 #accordion .content-info p {
     font-size: 3em;
 }
+
+/* .purchase */
 section.purchase.py-5 {
     height: 60em;
 }
@@ -224,12 +344,16 @@ button.btn-now {
     font-size: 3em;
     padding: 10px;
 }
+
+/* news */
 .news.py-5 h1 {
     font-size: 5em;
 }
 .news-post.col-xs-12.col-sm-6.col-md-3 {
     padding-bottom: 10px;
 }
+
+/* .funfact */
 .funfact .tag-color {
     display: none;
 }
@@ -239,24 +363,52 @@ button.btn-now {
 .funfact h2 {
     font-size: 5.5rem;
 }
+
+/* .pricing */
 .pricing h1 {
     font-size: 5em;
 }
-.personal.col-xs-12.col-sm-6.col-md-3 {
-    padding: 5em 15em;
+.pricing .px-0.col-md-3 {
+    margin: 21px 40px 10px 40px;
 }
-.personal-offer.col-xs-12.col-sm-6.col-md-3 {
-    padding: 5em 15em;
 }
-.tab.row {
-    font-size: 3em;
-}
+
+/* .feedback */
 .feedback h1{
     font-size: 5em;
 }
 .feedback p {
     font-size: 3em;
 }
+#avatar1 {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+#avatar2 {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+#avatar3 {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+#avatar4 {
+    width: 40px;
+    height: 40px;
+}
+.feedback .next {
+    width: 25px;
+    height: 25px;
+}
+.feedback .previous {
+    width: 25px;
+    height: 25px;
+}
+
+/* .team */
 .team h1.pb-5 {
     font-size: 5em;
 }
@@ -269,11 +421,22 @@ button.btn-now {
 .team p {
     font-size: 3em;
 }
+
+/* .purchase2 */
 .purchase2 h1.text-center {
     font-size: 5em;
 }
 .purchase2 .col-lg-5 {
     font-size: 2.3em;
+}
+
+/* .map */
+.map .img-map {
+    width: 100%;
+    height: 100%;
+}
+.contact-fa {
+    padding: 50px 0 20px 0;
 }
 .map input#name, input#mail {
     font-size: 3em;
@@ -288,11 +451,13 @@ textarea#message\ row {
     width: 100%;
 }
 .map .img-style {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 .map input.row.text-center {
     font-size: 2em;
 }
+
+/* .site-footer */
 img.people.py-5 {
     margin-left: 30em;
 }
@@ -304,7 +469,7 @@ img.people.py-5 {
     padding-top: 1em;
 }
 .site-footer a.btn.btn-info,.site-footer a.btn.btn-dark {
-    font-size: 3em;
+    font-size: 10px;
 }
 .site-footer input#form1 {
     font-size: 3em;
@@ -330,5 +495,4 @@ img.people.py-5 {
 }
 .textwidget.text-center {
     font-size: 3em;
-}
 }
