@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 * {
   font-family: 'Montserrat', sans-serif;
   margin:0; padding: 0;
@@ -130,7 +130,7 @@ button.btn-green {
   background-color: #18cfab;
   border-radius: 8px;
   font-family: "proxima-nova-soft", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
   transition: box-shadow 200ms ease-out;
   border-top: 4px solid;
@@ -147,7 +147,7 @@ button.btn-blue {
   background-color: #00cbf6;
   border-radius: 8px;
   font-family: "proxima-nova-soft", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
   transition: box-shadow 200ms ease-out;
   border-top: 4px solid;
@@ -199,7 +199,7 @@ strong {
 }
 .tag .icons {
   background-color: #1c2a33;
-  min-height: 370px;
+  min-height: 350px;
   text-align: center;
   max-width: 100%;
 }
@@ -207,8 +207,8 @@ strong {
   padding-top: 90px;
 }
 .icons .icons-box p{
-  font-size: 26px;
-  padding: 50px 0 110px 0;
+  font-size: 20px;
+  padding: 50px 0 0 0;
   margin: 0;
   font-weight: bold;
 }
@@ -221,6 +221,9 @@ strong {
 .services img {
   padding-bottom: 75px;
   padding-top: 45px;
+}
+.services h1 {
+  font-weight: 600;
 }
 .box.col-lg-4 {
   padding-bottom: 70px;
@@ -264,6 +267,7 @@ a.name-services:hover {
   font-size: 36px;
   padding: 0;
   margin: 0;
+  font-weight: 600;
 }
 .nav-about ul {
   list-style: none;
@@ -344,6 +348,7 @@ a.name-services:hover {
   color: white;
   padding: 7px;
   font-size: 17px;
+  font-weight: 600;
   margin: 0;
 }
 @keyframes load1 {
@@ -395,11 +400,13 @@ a.name-services:hover {
 .portfolio h1.Headline {
   font-size: 14px;
   color: #4e4e4e;
+  font-weight: 600;
 
 }
 .portfolio h1.text-center {
   padding-bottom: 35px;
   font-size: 36px;
+  font-weight: 600;
 }
 ul.nav.justify-content-center {
   padding-bottom: 75px;
@@ -414,11 +421,13 @@ a.nav-link {
   font-size: 14px;
   background-color: white;
   border-top: 3px solid #ebebeb;
+  font-weight: 600;
 }
 a.nav-link.active {
   padding: 20px;
   font-size: 14px;
   background-color: white;
+  font-weight: 600;
 }
 a.nav-link.active:hover {
   color: #18cfab;
@@ -516,6 +525,7 @@ a.nav-link:hover {
 }
 .information h1 {
   font-size: 36px;
+  font-weight: 600;
 }
 .information img.text-center {
   padding-top: 40px;
@@ -531,6 +541,7 @@ li.nav-item-info {
   border: 1px solid #ebebeb;
   color: #898989;
   background-color: #f8fcfe;
+  font-weight: 600;
 }
 li.nav-item-info:hover {
   background-color: #18cfab;
@@ -620,6 +631,7 @@ li.nav-item-info:hover {
 .purchase p.text-center {
   font-size: 16px;
   padding-top: 35px;
+  font-weight: 600;
 }
 .btn-purchase {
   display: flex;
@@ -646,6 +658,7 @@ button.btn-now {
   font-size: 36px;
   margin: 0;
   padding-bottom: 35px;
+  font-weight: 600;
 }
 .dates {
   position: absolute;
@@ -680,6 +693,7 @@ button.btn-now {
   border-right: 1px solid;
   padding-right: 10px;
   font-size: 14px;
+  font-weight: 600;
 }
 a.name-post {
   color: #7d7d7d;
@@ -690,6 +704,7 @@ a.name-post {
 a.cmt {
   padding-left: 10px;
   font-size: 14px;
+  font-weight: 600;
 }
 .post:hover .dates {
   background-color: #18cfab;
@@ -762,6 +777,7 @@ a.name-post:hover {
 .pricing h1 {
   font-size: 36px;
   color: #4e4e4e;
+  font-weight: 600;
 }
 .pricing .card.mb-4 {
   background-color: #f8fcfe;
@@ -797,6 +813,7 @@ sub {
   font-size: 14px;
   border-bottom: 1px solid #e5e5e6;
   color: #777777;
+  font-weight: 600;
 }
 button.btn-buynow {
   color: #ffffff;
@@ -831,6 +848,7 @@ button.btn-buynow {
   color: white;
   margin: 0;
   padding-bottom: 30px;
+  font-weight: 600;
 }
 .feedback p {
   font-size: 16px;
@@ -850,6 +868,7 @@ a.name-cmt {
   color: #18cfab;
   font-size: 20px;
   padding-bottom: 15px;
+  font-weight: 600;
 }
 a.name-cmt:hover {
   text-decoration: none;
@@ -931,6 +950,7 @@ a.name-cmt:hover {
   font-size: 36px;
   color: #4e4e4e;
   padding-bottom: 35px;
+  font-weight: 600;
 }
 .team h5 {
   font-size: 16px;
@@ -1079,6 +1099,7 @@ li {
   font-size: 36px;
   padding: 0 0 30px 0;
   margin: 0;
+  font-weight: 600;
 }
 .img-style {
   padding-left: 80px;
