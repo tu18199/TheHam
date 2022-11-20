@@ -78,16 +78,12 @@ header .logo {
 /* banner */
 .banner {
   width: 100%;
-  max-height: 1080px;
   background: url(../images/br.jpg);
   background-size: cover;
+  padding: 360px 0 245px 0;
 }
 .content {
   text-align: center;
-  padding-bottom: 250px;
-}
-.title-banner {
-  padding-top: 250px;
 }
 .content h1 {
   padding-top: 70px;
@@ -199,19 +195,28 @@ strong {
 }
 .tag .icons {
   background-color: #1c2a33;
-  min-height: 350px;
   text-align: center;
   max-width: 100%;
+  border-top: 10px solid #18cfab;
+  aspect-ratio: 480/370;
 }
-.icons .icons-box {
+.tag .icons1 {
+  background-color: #18cfab;
+  text-align: center;
+  max-width: 100%;
+  border-top: 10px solid #fff;
+  aspect-ratio: 480/370;
+}
+.tag .icons-box {
   padding-top: 90px;
 }
-.icons .icons-box p{
+.tag .icons-box p{
   font-size: 20px;
   padding: 50px 0 0 0;
   margin: 0;
   font-weight: bold;
 }
+
 .tag img {
   width: auto;
   min-height: 100px;
@@ -224,6 +229,8 @@ strong {
 }
 .services h1 {
   font-weight: 600;
+  color: #4e4e4e;
+  font-size: 36px;
 }
 .box.col-lg-4 {
   padding-bottom: 70px;
@@ -261,7 +268,7 @@ a.name-services:hover {
   background-size: cover;
 }
 .about img.img-style {
-  padding: 37px 0 80px 80px;
+  padding: 37px 0 35px 80px;
 }
 .about h1 {
   font-size: 36px;
@@ -272,7 +279,7 @@ a.name-services:hover {
 .nav-about ul {
   list-style: none;
   display: flex;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
 }
 .nav-about ul li {
   margin-top: 10px;
@@ -729,10 +736,16 @@ a.name-post:hover {
   max-width: 100%;
 }
 .funfact .fact {
-  min-height: 370px;
+  aspect-ratio: 0/370;
+  padding: 50px 0 50px 0;
+  border-top: 10px solid #18cfab;
 }
-.funfact .fact img {
-  padding-top: 60px;
+.funfact .fact1 {
+  aspect-ratio: 0/370;
+  padding: 50px 0 50px 0;
+  border-top: 10px solid #1c2a33;
+}
+.funfact .fact img, .funfact .fact1 img {
   width: 160px;
   padding-bottom: 25px;
 }
@@ -959,6 +972,7 @@ a.name-cmt:hover {
 }
 img.card-img-top {
   height: 230px;
+  object-fit: cover;
 }
 .circle-team1 {
   height: 70px;
@@ -1191,8 +1205,8 @@ footer.site-footer {
   overflow: hidden;
 }
 img.img-rencent {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: auto;
 }
 a.btn.btn-dark {
   margin: 3px;

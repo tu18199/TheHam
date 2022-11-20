@@ -1,9 +1,21 @@
-@media (max-width:1440px) {
-.about .img-style {
-    padding: 35px 0 0 80px;
+@media (max-width:1441px) {
+.tag .icons-box {
+    padding-top: 40px;
+}
+.funfact .fact img, .funfact .fact1 img {
+    width: 115px;
+    padding-bottom: 10px;
+}
+.funfact h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.funfact p {
+    font-size: 15px;
+    margin: 0;
 }
 }
-@media (max-width:1024px) and (min-width:769px) {
+@media (max-width:1025px) {
 html {
     font-size: 60%;
 }
@@ -15,6 +27,10 @@ html {
 }
 .show-slide {
     padding-right: 50px;
+}
+/* .tag */
+.tag .icons-box {
+    padding-top: 100px;
 }
 /* services */
 a.name-services {
@@ -98,6 +114,9 @@ img.people.py-5 {
 header .logo {
     padding-top: 0;
 }
+.header img {
+padding: 0;
+}
 .header .navbar a:hover {
     color: white;
     border-bottom: none;
@@ -133,6 +152,9 @@ header .logo {
 /* tag */
 .tag .tag-color{
     display: none;
+}
+.tag .icons-box {
+    padding-top: 50px;
 }
 /* about  */
 .about h1 {
@@ -177,6 +199,9 @@ header .logo {
     padding-bottom: 10px;
 }
 /* .funfact */
+.funfact .fact img, .funfact .fact1 img {
+    width: 100px;
+}
 .funfact p {
     font-size: 2em;
 }
@@ -196,6 +221,14 @@ header .logo {
     padding: 4em;
 }
 /* .purchase2 */
+.purchase2 h1.text-center {
+    font-size: 40px;
+}
+.purchase2 h2.text-center {
+    font-size: 35px;
+    padding: 30px 0 110px 0;
+    margin: 0;
+}
 .purchase2 .col-lg-5 {
     display: flex;
     justify-content: center;
@@ -237,7 +270,7 @@ button.btn-form1 {
         
 }
         
-@media (max-width:450px) and (min-width:320px){
+@media (max-width:426px) {
         
 html{
     font-size: 25%;
@@ -246,8 +279,12 @@ html{
     width: 145px;
 }
 .header a img {
-    width: 80%;
+    width: 60%;
     height: auto;
+    padding-top: 0;
+}
+.banner {
+    padding: 200px 0 245px 0;
 }
 #menu-btn {
     font-size: 25px;
@@ -267,21 +304,24 @@ html{
 .title-banner {
     padding-top: 120px;
 }
-.tag .tag-color{
-    display: none;
+/* .tag */
+.tag .icons-box {
+    padding-top: 70px;
 }
+/* .about */
 .about h1 {
-    font-size: 5rem;
+    font-size: 36px;
     text-align: center;
 }
 .about img.img-style {
-    padding: 30px 0 50px 45px;
+    padding: 30px 0 50px 95px;
 }
 .nav-about ul li a {
     font-size: 11px;
 }
 .about-skills.row {
     margin: 0 10px;
+    padding: 0 20px 100px 20px;
 }
 .progress p {
     font-size: 4em;
@@ -295,8 +335,8 @@ html{
     font-size: 5rem;
 }
 .img-item a {
-    top: 25%;
-    left: 28%;
+    top: 30%;
+    left: 34%;
     font-size: 5px;
 }
 .add.px-0.col-xs-12.col-sm-6.col-md-3:hover {
@@ -354,9 +394,6 @@ button.btn-now {
 }
 
 /* .funfact */
-.funfact .tag-color {
-    display: none;
-}
 .funfact p {
     font-size: 5em;
 }
@@ -369,7 +406,7 @@ button.btn-now {
     font-size: 5em;
 }
 .pricing .px-0.col-md-3 {
-    margin: 21px 40px 10px 40px;
+    margin: 20px 80px 10px 80px;
 }
 /* .feedback */
 .feedback h1{
@@ -411,7 +448,7 @@ button.btn-now {
     font-size: 5em;
 }
 .team-card.col-xs-12.col-sm-6.col-lg-3 {
-    padding: 8em;
+    padding: 40px 100px 0 100px;
 }
 .team h5.card-title {
     font-size: 5em;
@@ -424,8 +461,8 @@ button.btn-now {
 .purchase2 h1.text-center {
     font-size: 5em;
 }
-.purchase2 .col-lg-5 {
-    font-size: 2.3em;
+.purchase2 .col-lg-5 {  
+    padding-top: 20px;
 }
 
 /* .map */
@@ -443,13 +480,14 @@ textarea#message\ row {
     font-size: 3em;
 }
 .map h1 {
-    font-size: 5rem;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-top: 50px;
 }
 .map .img-style {
-    margin-left: 30px;
+    margin-left: 80px;
 }
 .map input.row.text-center {
     font-size: 2em;
@@ -493,6 +531,100 @@ img.people.py-5 {
 }
 .textwidget.text-center {
     font-size: 3em;
+}
+footer.site-footer {
+    padding: 50px 0 50px 0;
+}
+}
+
+@media (max-width:376px) {
+.tag .icons-box {
+    padding-top: 50px;
+}
+.about h1 {
+    font-size: 30px;
+}
+.about img.img-style {
+    padding: 30px 0 50px 70px;
+}
+.pricing .px-0.col-md-3 {
+    margin: 20px 60px 10px 60px;
+}
+.team {
+    padding-bottom: 50px;
+}
+.team-card.col-xs-12.col-sm-6.col-lg-3 {
+    padding: 40px 70px 0 70px;
+}
+.map .img-style {
+    margin-left: 45px;
+}
+img.img-rencent {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media (max-width: 321px) {
+.header img {
+    padding-top: 0;
+}
+
+/* .banner */
+.banner {
+    padding: 100px 0 150px 0;
+}
+.content h1 {
+    padding-top: 45px;
+}
+
+/* .tag */
+.tag .icons-box {
+    padding-top: 30px;
+}
+
+/* .services */
+.services h1 {
+    font-size: 28px;
+}
+
+/* .about */
+.about h1 {
+    font-size: 25px;
+}
+.about .img-style {
+    padding: 30px 0 20px 105px;
+}
+.about img.img-style {
+    padding: 0;
+}
+/* .funfact */
+.funfact .fact, .funfact .fact1 {
+    padding: 30px 0 30px 0;
+}
+/* .pricing */
+.pricing .px-0.col-md-3 {
+    margin: 20px 40px 10px 40px;
+}
+
+/* .team */
+.team-card.col-xs-12.col-sm-6.col-lg-3 {
+    padding: 40px 50px 0 50px;
+}
+
+/* .purchase2 */
+.purchase2 h1.text-center {
+    font-size: 25px;
+}
+.purchase2 h2.text-center {
+    font-size: 25px;
+}
+.purchase2 li {
+    font-size: 15px;
+}
+/* .map */
+.map .img-style {
+    margin-left: 25px;
 }
 }
 
