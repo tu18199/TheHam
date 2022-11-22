@@ -1144,7 +1144,7 @@ input#mail {
 textarea {
   overflow: auto;
   resize: vertical;
-  padding: 25px 0 0 20px;
+  padding: 20px 0 0 20px;
   width: 70%;
   border: 1px solid #CEDCD9;
   font-size: 14px;
@@ -1156,7 +1156,6 @@ textarea {
 }
 .contact-fa {
   padding: 80px 0 20px 0;
-  line-height: 0;
 }
 button.row {
   width: 70%;
